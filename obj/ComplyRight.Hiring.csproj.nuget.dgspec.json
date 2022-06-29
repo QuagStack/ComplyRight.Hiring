@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/quagstack/Development/work/ComplyRight.Hiring/ComplyRight.Hiring.csproj": {}
+    "C:\\git\\hiring\\ComplyRight.Hiring\\ComplyRight.Hiring.csproj": {}
   },
   "projects": {
-    "/Users/quagstack/Development/work/ComplyRight.Hiring/ComplyRight.Hiring.csproj": {
+    "C:\\git\\hiring\\ComplyRight.Hiring\\ComplyRight.Hiring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/quagstack/Development/work/ComplyRight.Hiring/ComplyRight.Hiring.csproj",
+        "projectUniqueName": "C:\\git\\hiring\\ComplyRight.Hiring\\ComplyRight.Hiring.csproj",
         "projectName": "ComplyRight.Hiring",
-        "projectPath": "/Users/quagstack/Development/work/ComplyRight.Hiring/ComplyRight.Hiring.csproj",
-        "packagesPath": "/Users/quagstack/.nuget/packages/",
-        "outputPath": "/Users/quagstack/Development/work/ComplyRight.Hiring/obj/",
+        "projectPath": "C:\\git\\hiring\\ComplyRight.Hiring\\ComplyRight.Hiring.csproj",
+        "packagesPath": "C:\\Users\\dwillis\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\hiring\\ComplyRight.Hiring\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/quagstack/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dwillis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\dwillis\\Desktop\\LocalNuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devsaaspackages.azurewebsites.net/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -38,9 +45,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -65,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
